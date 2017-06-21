@@ -11,16 +11,6 @@ int main()
 	std::istringstream temp(str);
 	std::stack<std::string> tokStack;
 
-	//int i = 0;
-	//
-	//while (str[i] != '\0')
-	//{
-	//	std::cout << i << "번째 : " << str[i] << std::endl;
-	//	++i;
-	//}
-
-	//std::cout << str.size() << std::endl;
-
 	while (getline(temp, token, ' '))
 	{
 		std::cout << token << " - ";
@@ -40,3 +30,13 @@ int main()
 	return 0;
 }
 
+
+//int i = 0;
+//
+//while (str[i] != '\0')
+//{
+//	std::cout << i << "번째 : " << str[i] << std::endl;
+//	++i;
+//}
+
+//std::cout << str.size() << std::endl;
