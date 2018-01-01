@@ -55,7 +55,7 @@ void Qsort(int* myArray, int left, int right)
 	if (left < right)
 	{
 		int pivot = partition(myArray, left, right);
-		std::cout << pivot << " partition" << std::endl;
+		std::cout << "partition at " << pivot << " value is " << myArray[pivot] <<std::endl;
 		Qsort(myArray, left, pivot - 1);
 		Qsort(myArray, pivot + 1, right);
 	}
